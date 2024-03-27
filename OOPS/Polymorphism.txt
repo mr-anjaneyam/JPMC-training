@@ -1,0 +1,8 @@
+Method overriding:
+    1. Method name must be Same
+    2. Parameters must be Same 
+    3. Method should be present in two different classes 
+Method overloading:
+    1. Method name must be Same
+    2. Parameters must be Different  
+    3. Method should be present same class 
