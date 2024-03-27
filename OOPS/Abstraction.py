@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class Fruit(ABC): #inheriting from abstract base class
     @abstractmethod #annotation to mention this as abstract method explicitly
     def getColor(self):
-        pass
+        pass #No statements are to be written in abstract method
     def getPrice(self):
         return 100
 
