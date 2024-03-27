@@ -1,10 +1,10 @@
 #Method Overriding
 class A:
     def m1(self):
-        print("Method1")
+        print("Class A")
 class B:
     def m1(self):
-        print("Method2")
+        print("Class B")
 
 #Method Overloading
 class C:
