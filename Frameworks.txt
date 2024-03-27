@@ -1,0 +1,9 @@
+asr.net - C
+spring - Java
+flask - python
+Django - python
+Fast API - python (Used for backend)
+MERN (MongoDB, Express, ReactJs, NodeJs) - Javascript
+MEAN (",", AngularJs,") - Javascript
+NextJs - Javascript
+Go/Rust - Backend languages
