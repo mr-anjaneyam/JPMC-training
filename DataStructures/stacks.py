@@ -26,7 +26,7 @@ while True:
     print("\n1. Push Element\n2. Pop Element\n3. Display Stack\n4. Peek\nAny other number to exit\n")
     op = int(input("Enter choice: "))
     if op==1:
-        n = int(input("Enter element: "))
+        n = input("Enter element: ")
         s.Push(n)
     elif op==2:
         s.Pop()
