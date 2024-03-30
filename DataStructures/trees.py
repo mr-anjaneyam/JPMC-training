@@ -74,6 +74,15 @@ class Tree:
             self.inorder(root.right)
         print(root.data)
         
+    def levelOrder(self, root):
+        q = [root]
+        while len(q) != 0:
+            ele = q.pop(0)
+            if ele.left is not None:
+                q.append(ele.left)
+            if ele.right != None:
+                q.append(ele.right)
+            print(ele.data, end=", ")
     
 
 t = Tree()
