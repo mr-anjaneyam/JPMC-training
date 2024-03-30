@@ -58,3 +58,4 @@ class Tree:
 t = Tree()
 t.addNode(4)
 t.addNode(10)
+t.deleteNode(10)
