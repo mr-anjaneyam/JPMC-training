@@ -55,6 +55,27 @@ class Tree:
         else:
             return root
 
+    def inorder(self, root):
+        if root.left is not None:
+            self.inorder(root.left)
+        print(root.data)
+        if root.right is not None:
+            self.inorder(root.right)
+    def preorder(self, root):
+        print(root.data)
+        if root.left is not None:
+            self.inorder(root.left)
+        if root.right is not None:
+            self.inorder(root.right)
+    def postorder(self, root):
+        if root.left is not None:
+            self.inorder(root.left)
+        if root.right is not None:
+            self.inorder(root.right)
+        print(root.data)
+        
+    
+
 t = Tree()
 t.addNode(4)
 t.addNode(10)
